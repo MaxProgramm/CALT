@@ -28,7 +28,7 @@ def searchBetweenTime(timePointA, timePointB, log, out):
 
 #sg.theme('DarkAmber')   # Add a touch of color
 # All the stuff inside your window.
-layout = [  [sg.Text("Craft Attack search tool by Looter V.2.1")],
+layout = [  [sg.Text("CALT - Craft Attack search tool by Looter V.2.1")],
             [sg.Text("Logfile:"), sg.Input(), sg.FileBrowse()],
             [sg.Text("Output file"), sg.Input("out.txt"), sg.FileBrowse()],
             [sg.Text("Enter the players name"), sg.InputText()],
